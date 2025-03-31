@@ -5,7 +5,14 @@
 }
 .header,
 .hero{
-    padding: 0vw 15vw;
+    padding: 1vw 15vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    padding:1vw
 }
 
 .header,
@@ -58,7 +65,8 @@ button,
 }
 .author{
     color: #1F2937;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: bold;
     justify-self: end;
 }
 .illustration{
@@ -68,10 +76,13 @@ button,
     height: 10vw;
 }
 .image{
+    display: flex;
     background-color: grey;
     color: #E5E7EB;
-    height: 150px;
-    width: 300px;
+    height: 15vw;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
 }
 .cards{
     display: flex;
@@ -106,5 +117,8 @@ button{
 }
 .action button{
     border: 5px solid #E5E7EB;
-    align-self: center;
+}
+.footer{
+    text-align: center;
+    padding: 0.5vw;
 }
