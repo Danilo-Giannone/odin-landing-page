@@ -4,12 +4,8 @@
     font-family: Roboto;
 }
 .header,
-.hero,
-.information,
-.quote,
-.action,
-.footer{
-    padding: 0% 15%;
+.hero{
+    padding: 0vw 15vw;
 }
 
 .header,
@@ -19,6 +15,7 @@
 }
 
 .quote{
+    padding: 5vw 20vw;
     background-color: #E5E7EB;
 }
 .logo,
@@ -50,6 +47,8 @@ button,
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    justify-self: center;
+    padding: 4vw 0;
 }
 .quote .text{
     font-size: 36px;
@@ -60,17 +59,52 @@ button,
 .author{
     color: #1F2937;
     font-weight: bolder;
+    justify-self: end;
 }
 .illustration{
     border: 5px solid #3882F6;
-    width: 100px;
-    height: 100px;
+    border-radius: 10%;
+    width: 10vw;
+    height: 10vw;
 }
 .image{
     background-color: grey;
     color: #E5E7EB;
     height: 150px;
-    width: 300;
-    text-align: justify;
-    text-justify: center;
+    width: 300px;
+}
+.cards{
+    display: flex;
+    width:inherit;
+    justify-content: space-between;
+}
+.card{
+    justify-content: center;
+    width: min-content;
+    text-align: center;
+}
+.information{
+    padding: 0vw 18vw 5vw;
+}
+.action{
+    display: flex;
+    margin: 8vw 16vw;
+    padding: 4vh 8vw;
+    border-width: 1vw;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.action .main{
+    font-size: 24px;
+    font-weight: 900;
+}
+button{
+    padding: 0.5vw 2vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.action button{
+    border: 5px solid #E5E7EB;
+    align-self: center;
 }
